@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-06-13T05:01:44.861Z",
+    "end": "2021-06-13T05:01:44.885Z",
+    "duration": 24
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event\"",
+      "fullTitle": "<ChromeBoisDomain /> \"before each\" hook for \"invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event\"",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Invariant Violation: ReactShallowRenderer render(): Shallow rendering works only with custom components, but the provided element type was `undefined`.\n    at invariant (node_modules/fbjs/lib/invariant.js:42:15)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:115:78)\n    at /Users/jeffreymartinez/Desktop/Desktop/Code/screenshares/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:24:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "ReactShallowRenderer render(): Shallow rendering works only with custom components, but the provided element type was `undefined`.",
+        "name": "Invariant Violation",
+        "framesToPop": 1
+      }
+    }
+  ],
+  "passes": []
+}
